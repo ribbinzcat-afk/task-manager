@@ -479,9 +479,9 @@
         });
 
         // Note color picker
-        $('.color-dot').forEach(dot => {
+        $$('.color-dot').forEach(dot => {
             dot.addEventListener('click', () => {
-                $('.color-dot').forEach(d => d.classList.remove('active'));
+                $$('.color-dot').forEach(d => d.classList.remove('active'));
                 dot.classList.add('active');
                 selectedNoteColor = dot.dataset.color;
             });
