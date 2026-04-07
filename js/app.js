@@ -22,7 +22,7 @@
         const DOM = {
             sidebar:       $('.sidebar'),
             hamburger:     $('#hamburger-btn'),
-            navBtns:       $('.nav-btn'),
+            navBtns:       $$('.nav-btn'),
             viewTitle:     $('#view-title'),
             taskView:      $('#task-view'),
             notesView:     $('#notes-view'),
